@@ -157,6 +157,81 @@
 		\begin{enumerate}
 		
 			\item $\sqrt{6} - \sqrt{2} > 1$.
+			
+			We need to construct a proof by contradiction.
+			
+			$$\sqrt{6} - \sqrt{2} \leq 1$$
+			$$(\sqrt{6} - \sqrt{2})^2 \leq (1)^2$$
+			$$6 - 2\sqrt{2}\sqrt{6} + 2 \leq 1$$
+			$$8 - 2\sqrt{12} \leq 1$$
+			$$-2\sqrt{12} \leq -7$$
+			$$(-2\sqrt{12})^2 > (-7)^2$$
+			$$48 > 49$$
+			
+			\item If $n$ is an integer such that $n^2$ is even, then $n$ is even.
+			
+			Suppose $n$ is odd.
+			
+			$$n^2 = (2k)^2$$
+			$$n^2 = 4k^2 = 2(2k^2)$$
+			
+			So $n^2$ is even.
+			
+			\item If $n = m^3 - m$ for some integer $m$, then $n$ is multiple of 6.
+			
+				$$m^3 - m = (m-1)m(m+1)$$
+				
+				This factors into three consecutive integers. Because every second integer is 
+				a factor of 2 and every third integer is a factor of 3, (m-1)m(m+1) is a multiple of 6.
+				
+				
+		\end{enumerate}
+		
+		\item Disprove the following statements:
+		
+		\begin{enumerate}
+		
+			\item If $n$ and $k$ are positive integers, then $n^k - n$ is always divisible by $k$.
+			
+				A counterexample.
+			
+				$(5^6 - 5)/5 = 2603.3333 ...$
+				
+			\item Every positive integer is the sum of three squares (the squares being 0, 1, 4, 9, 16, etc.).
+			
+				If we take $4 + 1 + 1 = 6$ and add 1 to get 7, 7 is not a sum of squares.
+		\end{enumerate}
+		
+		\item Given that the number 8881 is not a prime number, prove that it has a prime factor that is at most 89.
+			\emph{(Hint: Don't try to factorize 8881! Try to be a bit clever and prove it by contradiction.)}
+			
+			$$\sqrt{8881} = 94.239....$$
+			
+			So 8881 has a set of factors $k | k \leq 94$.
+			
+			Let's assume 8881 does not have any prime factors less than 89, then 8881 must have prime factors
+			between 90 and 94. None of 90, 91, 92, 93 or 94 are factors of 8881. If 8881 has no factors above 
+			89 and it is not a prime number then if must have a prime factor that is at most 89.
+			
+		\item In this question I am assuming you know what a prime number is; if not, take a look at the last section
+		of Chapter 8.
+		
+		For each of the following statements, form its negation and either prove that the statement is true or prove
+		that its negation is true:
+		
+		\begin{enumerate}
+			\item $\forall n \in \mathbb{Z}$ such that $n$ is a prime number, $n$ is odd
+			
+			The negation of this is
+			
+			$$\exists n \in \mathbb{Z} \text{ such that } n \text{ is a real number }, n \text{ is even.}$$
+			
+			If we assume that $n$ is an even number then $n = 2k$. However, a prime number has no factors
+			so this is a contradiction.
+			
+			\item $\forall n \in \mathbb{Z}, \exists a, b, c, d, e, f, g, h \in \mathbb{Z}$ such that
+			
+				$$n = a^3 + b^3 + c^3 + d^3 + e^3 + f^3 + g^3 + h^3$$
 		\end{enumerate}
 	
 	\end{enumerate}

@@ -226,12 +226,25 @@
 			
 			$$\exists n \in \mathbb{Z} \text{ such that } n \text{ is a real number }, n \text{ is even.}$$
 			
-			If we assume that $n$ is an even number then $n = 2k$. However, a prime number has no factors
-			so this is a contradiction.
+			The negation is true as $n = 2$ is an even prime number.
 			
 			\item $\forall n \in \mathbb{Z}, \exists a, b, c, d, e, f, g, h \in \mathbb{Z}$ such that
 			
 				$$n = a^3 + b^3 + c^3 + d^3 + e^3 + f^3 + g^3 + h^3$$
+				
+			The negation of this is
+			
+				$\exists n \in \mathbb{Z}, \forall a, b, c, d, e, f, g, h \in \mathbb{Z}$ such that
+				
+				$$n \cancel{ = }  a^3 + b^3 + c^3 + d^3 + e^3 + f^3 + g^3 + h^3$$
+				
+			\item $\exists x \in \mathbb{Z} \text{ such that } \forall n \in \mathbb{Z}, x \cancel{ = } n^2 +2$
+			
+				The negation of this is $\forall x \in \mathbb{Z} \text{ such that } \exists n \in \mathbb{Z}, x = n^2 + 2$
+				
+				The negation is false as $n = -1$ does not equal any $n^2 + 2$. So the original statement is true.
+			
+				
 		\end{enumerate}
 	
 	\end{enumerate}
